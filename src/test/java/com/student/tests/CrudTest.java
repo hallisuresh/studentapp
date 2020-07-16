@@ -1,6 +1,5 @@
 package com.student.tests;
 
-import com.github.javafaker.Faker;
 import com.student.requests.RequestFactory;
 import com.student.specs.SpecificationFactory;
 import io.qameta.allure.Step;
@@ -10,7 +9,6 @@ import java.util.List;
 
 public class CrudTest extends  TestBase {
     RequestFactory request = new RequestFactory();
-    Faker faker = new Faker();
 
     @Story("This is crud testing story")
     @Step("get the student details")
