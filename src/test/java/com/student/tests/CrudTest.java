@@ -10,7 +10,7 @@ import java.util.List;
 public class CrudTest extends  TestBase {
     RequestFactory request = new RequestFactory();
 
-    @Story("This is get student testing story")
+    @Story("This is get student testing story ")
     @Step("get the student details")
     @Test(description = "get the student list")
     public void getResult() {
