@@ -1,6 +1,4 @@
 package com.student.requests;
-
-import com.github.javafaker.Faker;
 import com.student.pojo.StudentPojo;
 import com.student.tests.TestBase;
 import io.qameta.allure.Step;
