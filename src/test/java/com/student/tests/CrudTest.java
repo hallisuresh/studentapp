@@ -14,7 +14,8 @@ public class CrudTest extends  TestBase {
     @Step("get the student details")
     @Test(description = "get the student list")
     public void getResult() {
-        request.getStudentDetails().then().log().all();
+        request.getStudentDetails().then()
+                                    .spec(SpecificationFactory.getGenericResponse());
     }
 
     @Story("This is create testing story")
